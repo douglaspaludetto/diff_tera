@@ -1,0 +1,89 @@
+nav {
+  background: url("diffstyle_top_solo.png");
+  height: 20%;
+  padding: 0;
+  margin: 0;
+}
+
+.logo-diff {
+  width: 100%;
+}
+
+.navbar-brand {
+  width: 10%;
+}
+
+.barra-pesquisa {
+  width: 50%;
+  margin-right: 50%;
+}
+
+.bs-example {
+  margin: auto;
+  width: 100%;
+  height: auto;
+  background: #00bfff;
+}
+
+.dropdown-toggle {
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.pagina-principal {
+  width: 100%;
+}
+
+body {
+  background: #87ceeb;
+}
+
+.flex-thumbs {
+  margin: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between !important;
+}
+#carouselExampleControls {
+  margin: 20px !important;
+}
+
+.titulo-produtos {
+  margin-top: 20px;
+  font-weight: bold;
+  margin: 20px;
+  text-decoration: none !important;
+}
+
+.banner_promo img {
+  width: 100%;
+  padding: 20px;
+}
+
+.titulo_candice {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 20px;
+}
+
+#foto {
+  display: flex;
+  width: 100px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.thumb_candice {
+  margin: 20px;
+  width: 30px;
+}
+
+.bg-light {
+  background-color: rgb(241, 217, 0) !important;
+}
