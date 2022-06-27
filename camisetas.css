@@ -1,0 +1,24 @@
+@import url(style.css);
+
+.principal{
+	width: 100%;
+	margin: 0;
+    display: flex;
+	align-items: center;
+}
+
+.imagem-camiseta{
+	margin: 20px 50px 20px;
+}
+
+.sobre-produto{
+	margin: 0 0 200px 0;
+}
+
+.produto-conteudo{
+	
+}
+
+.botao-padrao{
+	border-radius: 10px;
+}

@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Camisetas</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="camisetas.css">
 </head>
 
 <body>
@@ -93,15 +95,45 @@
     </button>
   </div>
 
-  <div>
-    <p class="titulo_candice">CAMISETA CANDICE</p>
-    <div id="foto">
-      <img src="./assets/candice.png" alt="Camiseta branca com uma estampa pequena da Candice pulando e segurando as duas pernas">
+  <!-- CONTEUDO PRINCIPAL -->
+<main class="principal">
+  <div class="imagem-camiseta">
+  <img src="./assets/candice.png" class="img-fluid" alt="camiseta.">
+</div>
+
+   <section class="sobre-produto">
+        <div class="produtos-conteudo">
+         <h1>Camiseta Mordecai e Rigby</h1>
+         <p>ypson Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum odit illum quia fugit</p>
+        </div>
+
+        <div class="produtos-preços">
+           <h2>R$70,00</h2>
+           <span class="d-block">Em até 12x sem juros</span>
+        </div>
+        <div class="quantidade-produto">
+          <h5>quantidade:</h5>
+          <input type="number" value="1" min="1" max="10">
+      </div>
+
+      <div class="frete-produto"> 
+        <h5>previsão de entrega</h5>
+       <input type="text" class="cep" placeholder="CEP">
+        <p id="obs-frete">Os preços, prazos e tipos de entrega são apenas para este produto em consulta</p>
     </div>
-    <div class="thumb_candice">
-      <img src="./estampa_candice.png" alt="">
-    </div>
-  </div>
+
+      <div class="btn-produto">
+          <div class="botao-destaque" id="btn-sacola">
+              adicionar à sacola
+          </div>
+          <div class="botao-padrao" id="btn-comprar">
+              <a>comprar agora</a>
+          </div>
+      </div>
+      </form>
+      </section>
+  
+</main>
      
    <!-- Rodapé -->
 <footer class="text-center text-lg-start bg-light text-muted">

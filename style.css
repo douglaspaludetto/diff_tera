@@ -31,6 +31,13 @@ nav {
   color: black;
 }
 
+#products-menu a{
+  margin: 20px 5px 5px 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
   background-color: rgba(255, 255, 255, 0.5);
@@ -66,18 +73,6 @@ body {
   font-weight: bold;
   font-size: 2em;
   margin: 20px;
-}
-
-#foto {
-  display: flex;
-  width: 100px;
-  margin: 20px;
-  border-radius: 5px;
-}
-
-.thumb_candice {
-  margin: 20px;
-  width: 30px;
 }
 
 .bg-light {
